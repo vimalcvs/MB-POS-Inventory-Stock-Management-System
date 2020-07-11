@@ -1,0 +1,6 @@
+<div class="d-none d-sm-block btn-group btn-group-justified nav-buttons" role="group" aria-label="Basic example">
+    <a href="{{url('report/purchase/summary')}}" class="btn btn-outline-primary {{ active_if_full_match('report/purchase/summary') }} {{ active_if_full_match('report/purchase/summary-filter') }}"><i class="fas fa-money-check"></i> {{__('pages.purchase_summary')}} </a>
+    <a href="{{url('report/purchase/statistics')}}" class="btn btn-outline-primary {{ active_if_full_match('report/purchase/statistics') }} {{ active_if_full_match('report/purchase/statistics-filter') }}  {{ active_if_full_match('report/purchase/statistics/last/*/days') }}"><i class="fas fa-chart-bar"></i> {{__('pages.purchase_statistics')}}   </a>
+    <a href="{{url('report/purchase/product-wise')}}" class="btn btn-outline-primary {{ active_if_full_match('report/purchase/product-wise') }} {{ active_if_full_match('report/purchase/product-wise-filter') }}"><i class="fas fa-money-check-alt"></i>  {{__('pages.product_wise_purchase')}} </a>
+    <a href="{{url('report/purchase/purchases')}}" class="btn btn-outline-primary {{ active_if_full_match('report/purchase/purchases') }} {{ active_if_full_match('report/purchase/purchases-filter-result') }}"><i class="fas fa-braille"></i>{{__('pages.all')}} {{__('pages.purchase')}}</a>
+</div>

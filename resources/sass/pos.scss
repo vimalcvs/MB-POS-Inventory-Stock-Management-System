@@ -1,0 +1,185 @@
+.sell-pos{
+  .mml-5{
+    margin-left: -5px;
+  }
+
+  .w-90px{
+    width: 90px;
+  }
+
+  .w-80px{
+    width: 80px;
+  }
+
+  .scroll-bar{
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $primary_color;
+      outline: 1px solid slategrey;
+    }
+  }
+
+  .select-customer ::placeholder{
+    color: $gray-300;
+  }
+
+  .border-top{
+    border-top: 1px solid $secondary_color !important;
+  }
+
+  .border-bottom{
+    border-bottom: 1px solid $secondary_color !important;
+  }
+
+  .cart-products{
+    height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-bottom: 1px solid $secondary_color;
+
+    .sell-item{
+      .product-title{
+        font-size: 11px;
+        font-weight: 600;
+      }
+
+      .remove{
+        font-size: 12px;
+      }
+    }
+  }
+  .cart-footer{
+    font-size: 12px;
+
+    .form-control{
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+  .card{
+    height: 88vh;
+    box-shadow: none !important;
+    .card-header{
+      padding: 0.30rem 1.25rem !important;
+      height: 50px;
+    }
+
+    .card-body-all-products{
+      padding: 10px 20px;
+      max-height: 81vh;
+      overflow-y: scroll;
+      overflow-x: hidden;
+
+      .all-products{
+        .single-product{
+          border: 1px solid #d1d1d1;
+          border-radius: 5px;
+          &:hover{
+            cursor: pointer;
+            border: 1px solid $primary_color;
+          }
+          .img{
+            height: 100px;
+            overflow: hidden;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            &img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .description{
+            padding: 5px;
+            .product-title{
+              font-size: 12px;
+            }
+            .sku-price{
+              margin-top: -20px;
+              span{
+                font-size: 12px;
+              }
+            }
+          }
+
+          .price{
+            position: absolute;
+            left: 4px;
+            top: 18px;
+            font-size: 13px;
+            font-weight: 900;
+            color: white;
+            padding: 0px 8px;
+            background: #6c757de0;
+          }
+
+          .qty{
+            position: absolute;
+            left: 4px;
+            top: 5px;
+            font-size: 13px;
+            font-weight: 900;
+            color: white;
+            padding: 0px 8px;
+            background: #6c757de0;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.sell-invoice{
+  .company-name{
+    font-size: 22px;
+    color: #847f7f;
+  }
+
+  .border-bottom-dotted{
+    border-bottom: 1px dotted #dee2e6;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+  .address{
+    margin-bottom: -1px;
+  }
+
+  .vat{
+    margin-bottom: 7px;
+  }
+
+  .outlet{
+    line-height: 0px;
+  }
+
+
+  .invoice-summary{
+    span{
+      font-size: 12px;
+      line-height: 0px;
+    }
+
+    .mtm8{
+      margin-top: -8px;
+    }
+  }
+
+  .sell-invoice-table{
+
+    th, td{
+      font-size: 12px;
+    }
+  }
+}

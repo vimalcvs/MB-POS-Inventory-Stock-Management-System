@@ -1,0 +1,110 @@
+.purchase-products{
+    .mml-5{
+      margin-left: -5px;
+    }
+    .w-90px{
+      width: 90px;
+    }
+
+    .w-80px{
+      width: 80px;
+    }
+  .card-header {
+    padding: 0.3rem 1.25rem !important;
+    height: 50px;
+  }
+
+    .selected-products{
+      height: 45vh;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      padding-right: 15px;
+      margin-right: -1px;
+
+      .item{
+        border-bottom: 1px solid $secondary_color;
+        .remove-btn{
+          position: absolute;
+          top: -9px;
+          left: -4px;
+        }
+        .description{
+          .product-details{
+            font-size: 15px;
+            font-weight: 600;
+          }
+
+          .prices{
+            padding-bottom: 5px;
+            font-size: 11px;
+          }
+        }
+      }
+    }
+
+
+    .payment-box{
+      text-align: center;
+    }
+  }
+
+.all-products{
+    .card-header {
+      padding: 0.3rem 1.25rem !important;
+      height: 50px;
+    }
+    .card-body{
+      height: 85vh;
+      overflow-y: scroll;
+
+      .single-product{
+        .item{
+          border-radius: 10px;
+          background: $white;
+          border: 1px solid #d1d1d1;
+          border-radius: 5px;
+
+          &:hover{
+            cursor: pointer;
+            border: 1px solid $primary_color;
+          }
+
+          .img{
+            height: 100px;
+            overflow: hidden;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            &img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .description{
+            padding: 5px;
+            .product-title{
+              font-size: 12px;
+            }
+            .sku-price{
+              margin-top: -20px;
+              span{
+                font-size: 12px;
+              }
+            }
+          }
+
+          .price{
+            position: absolute;
+            right: 4px;
+            bottom: 52px;
+            font-size: 13px;
+            font-weight: 900;
+            color: white;
+            padding: 0px 8px;
+            background: #6c757de0;
+          }
+        }
+      }
+    }
+}

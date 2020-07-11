@@ -1,0 +1,52 @@
+// Custom Card Styling
+
+.card {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+  background: $white;
+  .card-header {
+    background: $white;
+    // Format Dropdowns in Card Headings
+    .dropdown {
+      line-height: 1;
+      .dropdown-menu {
+        line-height: 1.5;
+      }
+    }
+
+    .w-104{
+      width: 103.5% !important;
+    }
+
+    .filter-category{
+      overflow-y: scroll;
+      height: 42px;
+    }
+  }
+  // Collapsable Card Styling
+  .card-header[data-toggle="collapse"] {
+    text-decoration: none;
+    position: relative;
+    padding: 0.75rem 3.25rem 0.75rem 1.25rem;
+    &::after {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-right: 1.725rem;
+      line-height: 51px;
+      font-weight: 900;
+      content: '\f107';
+      font-family: 'Font Awesome 5 Free';
+      color: $gray-400;
+    }
+    &.collapsed {
+      border-radius: $card-border-radius;
+      &::after {
+        content: '\f105';
+      }
+    }
+  }
+
+  .card-body{
+    //min-height:500px;
+  }
+}

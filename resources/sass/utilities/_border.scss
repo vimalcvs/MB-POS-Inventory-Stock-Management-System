@@ -1,0 +1,10 @@
+@each $color, $value in $theme-colors {
+  @each $position in ['left', 'bottom']{
+    .border-#{$position}-#{$color} {
+      border-#{$position}: .25rem solid $value !important;
+    }
+  }
+}
+.border-bottom-primary-slim{
+  border-bottom: 1px solid $primary_color !important;
+}

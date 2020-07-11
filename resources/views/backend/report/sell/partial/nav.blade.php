@@ -1,0 +1,6 @@
+<div class="d-none d-sm-block btn-group btn-group-justified nav-buttons" role="group" aria-label="Basic example">
+    <a href="{{url('report/sell/summary')}}" class="btn btn-outline-primary {{ active_if_full_match('report/sell/summary') }} {{ active_if_full_match('report/sell/summary-filter') }}"><i class="fas fa-money-check"></i> {{__('pages.sales_summary')}} </a>
+    <a href="{{url('report/sell/statistics')}}" class="btn btn-outline-primary {{ active_if_full_match('report/sell/statistics') }} {{ active_if_full_match('report/sell/statistics-filter') }}  {{ active_if_full_match('report/sell/statistics/last/*/days') }}"><i class="fas fa-chart-bar"></i>  {{__('pages.sales_statistics')}}  </a>
+    <a href="{{url('report/sell/product-wise')}}" class="btn btn-outline-primary {{ active_if_full_match('report/sell/product-wise') }} {{ active_if_full_match('report/sell/product-wise-filter') }}"><i class="fas fa-money-check-alt"></i>  {{__('pages.product_wise_sales')}}  </a>
+    <a href="{{url('report/sell/sells')}}" class="btn btn-outline-primary {{ active_if_full_match('report/sell/sells') }} {{ active_if_full_match('report/sell/sells-filter-result') }}"><i class="fas fa-braille"></i>  {{__('pages.all')}} {{__('pages.sells')}}</a>
+</div>

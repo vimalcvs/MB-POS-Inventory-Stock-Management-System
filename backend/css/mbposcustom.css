@@ -1,0 +1,181 @@
+ /*=========== Image Upload Box ===============*/
+.upload-img-box {
+    background-color: #f5f5f5;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    height: 150px;
+    position: relative;
+}
+.upload-img-box img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    z-index: 5;
+    position: absolute;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.upload-img-box video{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    z-index: 5;
+    position: absolute;
+    object-fit: cover;
+}
+.upload-img-box input[type="file"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 10;
+    width: 100%;
+    cursor: pointer;
+}
+
+.upload-img-box-icon{
+    color: #666;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upload-img-box-icon i{
+    font-size: 24px;
+    position: relative;
+}
+
+.update-logo-image-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-gradient-primary {
+    background-color: #23314b;
+    background-image: none;
+}
+
+.bg-secondary, .bg-primary {
+    background-color: #23314b!important;
+}
+.text-primary {
+    color: #23314b !important;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item.active, .sidebar .nav-item .collapsing .collapse-inner .collapse-item.active {
+    color: #23314b !important;
+}
+
+.font-size-12{
+	font-size: 12px
+}
+.min-height-550{
+	min-height: 550px
+}
+
+.margin-b-m15{
+	margin-bottom: -15px
+}
+.margin-t-m5{
+	margin-top: -5px
+}
+
+.notification-mb-pos{
+	max-height: 350px; overflow-y: scroll; overflow-x: hidden
+}
+
+.w-500{
+	width: 500px
+}
+
+.filter-pdf-btn{
+	position: absolute; right: 0
+}
+.h-30{
+ height: 30px
+}
+.h-55{
+	height: 55px
+}
+
+.w-20p{
+    width: 20px;
+}
+
+ .w-30p{
+     width: 30px;
+ }
+
+ .w-40p{
+     width: 40px;
+ }
+
+.m-0-auto-mb-pos{
+	margin: 0 auto
+}
+
+.pt-35{
+    padding-top: 35px;
+}
+
+.w20p{
+	width:  20%
+}
+.h-26{
+    height: 26px;
+}
+
+.w10p{
+	width:  10%
+}
+
+ .topbar .nav-item .nav-link {
+     padding: 0 .50rem;
+ }
+
+
+.dwp-21, .dwp-22, .dwp-23, .dwp-24, .dwp-25, .dwp-26, .dwp-27, .dwp-28, .dwp-29, .dwp-30{
+	width:  30%
+}
+
+.dwp-31, .dwp-32, .dwp-33, .dwp-34, .dwp-35, .dwp-36, .dwp-37, .dwp-38, .dwp-39, .dwp-40{
+	width:  30%
+}
+
+.dwp-41, .dwp-42, .dwp-43, .dwp-44, .dwp-45, .dwp-46, .dwp-47, .dwp-48, .dwp-49, .dwp-50{
+	width:  45%
+}
+
+.dwp-51, .dwp-52, .dwp-53, .dwp-54, .dwp-55, .dwp-56, .dwp-57, .dwp-58, .dwp-59, .dwp-60 {
+	width:  55%
+}
+
+.dwp-61, .dwp-62, .dwp-63, .dwp-64, .dwp-65, .dwp-66, .dwp-67, .dwp-68, .dwp-69, .dwp-70{
+	width:  70%
+}
+
+.dwp-71, .dwp-82, .dwp-73, .dwp-74, .dwp-75, .dwp-76, .dwp-77, .dwp-78, .dwp-79, .dwp-80{
+	width:  85%
+}
+
+.dwp-81, .dwp-82, .dwp-83, .dwp-84, .dwp-85, .dwp-86, .dwp-87, .dwp-88, .dwp-89, .dwp-90{
+	width:  90%
+}
+
+.dwp-91, .dwp-92, .dwp-93, .dwp-94, .dwp-95{
+	width:  95%
+}
+
+.dwp-96, .dwp-97, .dwp-98, .dwp-99, .dwp-100{
+	width:  100%
+}

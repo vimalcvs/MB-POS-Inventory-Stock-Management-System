@@ -1,0 +1,54 @@
+.form-control {
+  border-radius: 0px !important;
+  &.error,
+  &.parsley-error {
+    border-color: $red;
+  }
+}
+
+.parsley-errors-list {
+  list-style: none;
+  padding-left: 0;
+  color: $red;
+  font-size: 12px;
+}
+
+.form-text {
+  &.error {
+    color: $red;
+    font-size: 12px;
+    position: relative;
+    line-height: 1;
+  }
+}
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid lighten($primary_color, 40);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #d1d1d1 !important;
+  opacity: .5; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #d1d1d1 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #d1d1d1 !important;
+}
+.select2-container--default .select2-selection--multiple {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 0px;
+  cursor: text;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: 1px solid #aaa;
+  outline: 0;
+  border-radius: 0px;
+}

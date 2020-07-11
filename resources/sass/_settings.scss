@@ -1,0 +1,26 @@
+.settings-page{
+  .card{
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14);
+    .card-header{
+      .nav-buttons{
+        .btn{
+          &:hover {
+            background-color: #6c757d !important;
+            border-color: #6c757d !important;
+          }
+          i{
+            padding-right: 10px
+          }
+          padding: 9px 40px;
+        }
+      }
+    }
+
+    .card-body{
+      min-height: 60vh;
+    }
+  }
+  .table{
+     font-size: 12px;
+   }
+}
